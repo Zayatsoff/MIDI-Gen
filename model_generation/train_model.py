@@ -1,4 +1,4 @@
-# Assuming midi_dicts is your list of dictionaries from Step 1
+# Assuming midi_dicts is the list of dictionaries
 notes = [note for midi_dict in midi_dicts for note in midi_dict["notes"]]
 # More processing will be needed for durations and offsets
 

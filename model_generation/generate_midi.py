@@ -1,4 +1,5 @@
 from music21 import stream, note, chord
+import numpy as np
 
 
 def generate_sequence(

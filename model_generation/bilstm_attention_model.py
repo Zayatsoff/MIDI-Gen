@@ -45,10 +45,10 @@ class AttentionLayer(tf.keras.layers.Layer):
 
 
 # Model parameters
-vocab_size = 1000  # Replace with your vocabulary size
+vocab_size = 1000  # Replace with vocabulary size
 embedding_dim = 256
 lstm_units = 128
-max_sequence_len = 100  # Replace with your sequence length
+max_sequence_len = 100  # Replace with sequence length
 
 # Model definition
 model = Sequential()
