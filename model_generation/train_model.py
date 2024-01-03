@@ -1,3 +1,5 @@
+from sklearn.model_selection import train_test_split
+
 # Assuming midi_dicts is the list of dictionaries
 notes = [note for midi_dict in midi_dicts for note in midi_dict["notes"]]
 # More processing will be needed for durations and offsets
@@ -24,7 +26,6 @@ network_input = np.array(
 network_output = to_categorical(network_output, num_classes=len(unique_notes))
 
 # Split data into training and validation sets
-from sklearn.model_selection import train_test_split
 
 X_train, X_val, y_train, y_val = train_test_split(
     network_input, network_output, test_size=0.2, random_state=0

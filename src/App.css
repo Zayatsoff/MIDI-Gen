@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: #282c34; /* Dark background */
+  color: #9a9a9a; /* Light text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  width: 100%;
+}
+
+.midi-container {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  background-color: #6c757d; /* Pastel button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+..canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+canvas {
+  border: 1px solid #ddd; /* Adds a border around the canvas */
+}

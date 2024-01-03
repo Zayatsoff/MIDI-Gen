@@ -1,8 +1,5 @@
 from music21 import converter, instrument, note, chord
 import os
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.utils import to_categorical
-import numpy as np
 
 
 def parse_midi(midi_path):
